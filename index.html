@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="d-flex align-items-center position-sticky top-0 transition-smooth "
+      id="header"
+    >
+      <div class="w-100">
+        <div class="container py-3">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center justify-content-left gap-2">
+              <span class="four-pointed-star-sm"></span>
+              <div class="orbitron-text-700-md">UNICROWD</div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center gap-2">
+              <input
+                type="text"
+                placeholder="Find a creator, item, or category"
+                class="input-i"
+              />
+              <button class="p-2 btn-shap-i">
+                <img
+                  src="./assets/img/icon/Search.svg"
+                  class=""
+                  style="background-color: transparent"
+                  width="23px"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="d-flex justify-content-center align-items-center gap-4">
+              <button class="btn-shap-ii orbitron-text-500-sm">
+                collection
+              </button>
+              <button class="icon-shap">
+                <img src="./assets/img/icon/Add.svg" width="25px" alt="" />
+              </button>
+              <button class="icon-shap">
+                <img
+                  src="./assets/img/icon/notification.png"
+                  width="25px"
+                  alt=""
+                />
+              </button>
+              <div class="d-flex align-items-center">
+                <div class="men-img">
+                  <img
+                    src="./assets/img/cartoon/men-1.png"
+                    width="100%"
+                    alt=""
+                  />
+                </div>
+                <div class="ps-3">
+                  <img
+                    src="./assets//img/icon/arrow-down.svg"
+                    width="20px"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero w-100 py-5">
+      <div class="container pt-5">
+        <div class="w-100 d-flex flex-column flex-lg-row postiion-relative">
+          <div class="w-100 w-lg-50 py-5 pt-lg-0">
+            <div class="d-flex flex-column gap-4 max-w-400">
+              <div class="d-flex flex-row">
+                <p
+                  class="w-80 orbitron-text-400-sm text-orange d-flex align-items-center flex-grow-1 text-uppercase"
+                >
+                  The new creative economy
+                </p>
+                <div class="w-10">
+                  <div class="ps-4">
+                    <div class="four-pointed-star-md"></div>
+                  </div>
+                </div>
+                <div class="w-10">
+                  <div class="pt-3">
+                    <div class="four-pointed-star-sm"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="orbitron-text-400-lg max-w-400">
+                Support <span class="orbitron-text-500-xxl"> Creators </span> &
+                get
+                <span class="Orbitron-text-500-xxl"> Digital rewards! </span>
+              </div>
+              <div class="gilroy-text-400-sm text-grey">
+                Browse below to get started!
+              </div>
+              <div class="d-flex flex-row gap-3">
+                <button class="btn-shap-primary orbitron-text-700-sm">
+                  Find a Creator
+                </button>
+                <button class="btn-shap-transpernt orbitron-text-400-sm">
+                  Become Creator
+                </button>
+                <button class="btn-shap-transpernt orbitron-text-400-sm">
+                  How it works?
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 w-lg-50 py-5 pt-lg-0">
+            <div
+              class="w-100 d-flex align-items-center justify-content-center justify-content-lg-end"
+            >
+              <div class="position-relative">
+                <div class="video">
+                  <!-- <video src="./assets/video/cartoon.mp4" controls muted width="100%"></video> -->
+                  <img
+                    src="./assets/img/background/images-2.png"
+                    width="100%"
+                    alt=""
+                  />
+                </div>
+                <button class="icon-play">
+                  <img
+                    src="./assets/img/icon/play.png"
+                    width=""
+                    class="bg-transparent"
+                  />
+                </button>
+                <span class="circle-text">
+                  <div class="circle" id="circularText"></div>
+                </span>
+                <div class="img-coin">
+                  <img
+                    src="./assets/img/icon/coin.png"
+                    width="100%"
+                    class="bg-transparent"
+                    alt="coin"
+                  />
+                </div>
+                <!-- <div class="img-gift">
+                  <img src="./assets/img/icon/gift.png" width="100%" class="bg-transparent" alt="gifit">
+                </div> -->
+                <div class="img-card">
+                  <img
+                    src="./assets/img/icon/card.png"
+                    width="100%"
+                    class="bg-transparent"
+                    alt="card"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-dot"></div>
+        <div class="shadow-dot-sm"></div>
+      </div>
+    </section>
+
+    <!-- Explore Creators -->
+    <!-- <section class="Explore-Creators"> -->
+    <div class="w-100 py-4">
+      <div class="container">
+        <div class="title">
+          <div class="orbitron-text-500-xl py-3">Explore Creators</div>
+        </div>
+        <div class="d-flex flex-row gap-3">
+          <input
+            type="text"
+            placeholder="Find a creator, item, or category"
+            class="input-ii"
+          />
+          <button class="btn-shap-primary orbitron-text-400-sm">
+            Find
+            <img
+              src="./assets/img/icon/Search.svg"
+              alt="search button"
+              class="bg-transparent text-light"
+            />
+          </button>
+          <button class="btn-shap-transpernt orbitron-text-400-sm">
+            Sort by
+            <img
+              src="./assets/img/icon/arrow-down.svg"
+              alt="sort by"
+              class="bg-transparent"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- </section> -->
+
+    <!-- all type slider -->
+    <!-- League of legends -->
+    <section class="League-of-legends">
+      <div class="w-100 py-5 position-relative">
+        <div class="container">
+          <div
+            class="title d-flex justify-content-left align-items-center gap-3 py-3"
+          >
+            <div class="img-i">
+              <img
+                src="./assets/img/background/background-1.png"
+                width="70px"
+                class=""
+                alt="League of legends"
+              />
+            </div>
+            <div class="orbitron-text-700-lg py-4">League of legends</div>
+          </div>
+        </div>
+        <div class="w-100">
+          <swiper-container
+            class="mySwiper  swiper-width-primary"
+            space-between="30"
+            free-mode="true"
+
+          >
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        <div class="shadow-dot-lg"></div>
+      </div>
+    </section>
+
+    <!-- Clash Royale -->
+    <section class="Clash Royale">
+      <div class="w-100 py-4 position-relative">
+        <div class="container">
+          <div
+            class="title d-flex justify-content-left align-items-center gap-3 py-3"
+          >
+            <div class="img-i">
+              <img
+                src="./assets/img/background/background-1.png"
+                width="70px"
+                class=""
+                alt="League of legends"
+              />
+            </div>
+            <div class="orbitron-text-700-lg py-4">Clash Royale</div>
+          </div>
+        </div>
+        <div class="w-100">
+          <swiper-container
+            class="mySwiper swiper-width-primary"
+            space-between="30"
+            free-mode="true"
+          >
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card">
+                <img
+                  src="./assets/img/card img/bg-1.jpg"
+                  class="card-img-top img-z"
+                  alt="Card Image"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex flex-row gap-3 bg-transparent pb-3">
+                    <div class="bg-transparent w-25">
+                      <div class="position-relative">
+                        <div class="profile-img">
+                          <img
+                            src="./assets/img/cartoon/men-1.png"
+                            width="100%"
+                            alt="Profile Image"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-75 bg-transparent d-flex flex-column">
+                      <div
+                        class="bg-transparent d-flex align-items-center gap-2"
+                      >
+                        <div class="orbitron-text-500-md bg-transparent">
+                          Jenny Wilson
+                        </div>
+                        <div class="verified-img bg-transparent">
+                          <img
+                            src="./assets/img/icon/verified.png"
+                            class="img-x bg-transparent"
+                            width="100%"
+                            alt="Verified Icon"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="orbitron-text-500-xs text-secondary bg-transparent bg-transparent"
+                      >
+                        1M Subscribers
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="text-box d-flex flex-column justify-content-start gap-2 bg-transparent"
+                  >
+                    <div class="orbitron-text-500-xs text-grey bg-transparent">
+                      #leagueoflegends
+                    </div>
+                    <div
+                      class="orbitron-text-500-lg font-weight-bold bg-transparent"
+                    >
+                      Digital Creator, Youtuber
+                    </div>
+                    <div
+                      class="card-text gilroy-text-400-md text-grey bg-transparent"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Eget lorem dolor sed viverra ipsum nunc.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        <div class="shadow-dot-xl"></div>
+      </div>
+    </section>
+
+    <!-- Recent posts -->
+    <section class="Recent-posts">
+      <div class="w-100 py-5 ">
+        <div class="container">
+          <div class="orbitron-text-700-lg py-4">Recent posts</div>
+        </div>
+        <div class="w-100">
+          <swiper-container
+            class="swiper-width-secondary "
+            space-between="30"
+            free-mode="true"
+          >
+            <swiper-slide>
+              <div class="card-second card-body p-4">
+                  <p class="card-title bg-transparent orbitron-text-500-md">Card title</p>
+                  <p class="card-text bg-transparent gilroy-text-400-xs text-grey">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Mattis
+                  </p>
+                  <div class="d-flex flex-row align-items-center gap-3 bg-transparent">
+                    <div class="img-a">
+                      <img src="./assets/img/cartoon/men-1.png" width="100%" alt="">
+                    </div>
+                    <div class="d-flex flex-grow-1 flex-column gap-2 bg-transparent">
+                      <p class="orbitron-text-500-sm bg-transparent m-0 bg-transparent">Jessica Smith</p>
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey">Content creator</p>
+                    </div>
+                    <div class="bg-transparent">
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey" >17th Aug,21</p>
+                    </div>
+                  </div>
+
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card-second card-body" >
+                  <p class="card-title bg-transparent orbitron-text-500-md">Card title</p>
+                  <p class="card-text bg-transparent gilroy-text-400-xs text-grey">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Mattis
+                  </p>
+                  <div class="d-flex flex-row align-items-center gap-3 bg-transparent">
+                    <div class="img-a">
+                      <img src="./assets/img/cartoon/men-1.png" width="100%" alt="">
+                    </div>
+                    <div class="d-flex flex-grow-1 flex-column gap-2 bg-transparent">
+                      <p class="orbitron-text-500-sm bg-transparent m-0 bg-transparent">Jessica Smith</p>
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey">Content creator</p>
+                    </div>
+                    <div class="bg-transparent">
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey" >17th Aug,21</p>
+                    </div>
+                  </div>
+                  </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card-second card-body" >
+                  <p class="card-title bg-transparent orbitron-text-500-md">Card title</p>
+                  <p class="card-text bg-transparent gilroy-text-400-xs text-grey">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Mattis
+                  </p>
+                  <div class="d-flex flex-row align-items-center gap-3 bg-transparent">
+                    <div class="img-a">
+                      <img src="./assets/img/cartoon/men-1.png" width="100%" alt="">
+                    </div>
+                    <div class="d-flex flex-grow-1 flex-column gap-2 bg-transparent">
+                      <p class="orbitron-text-500-sm bg-transparent m-0 bg-transparent">Jessica Smith</p>
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey">Content creator</p>
+                    </div>
+                    <div class="bg-transparent">
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey" >17th Aug,21</p>
+                    </div>
+                  </div>
+                  </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card-second card-body" >
+                  <p class="card-title bg-transparent orbitron-text-500-md">Card title</p>
+                  <p class="card-text bg-transparent gilroy-text-400-xs text-grey">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Mattis
+                  </p>
+                  <div class="d-flex flex-row align-items-center gap-3 bg-transparent">
+                    <div class="img-a">
+                      <img src="./assets/img/cartoon/men-1.png" width="100%" alt="">
+                    </div>
+                    <div class="d-flex flex-grow-1 flex-column gap-2 bg-transparent">
+                      <p class="orbitron-text-500-sm bg-transparent m-0 bg-transparent">Jessica Smith</p>
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey">Content creator</p>
+                    </div>
+                    <div class="bg-transparent">
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey" >17th Aug,21</p>
+                    </div>
+                  </div>
+                  </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card-second card-body" >
+                  <p class="card-title bg-transparent orbitron-text-500-md">Card title</p>
+                  <p class="card-text bg-transparent gilroy-text-400-xs text-grey">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Mattis
+                  </p>
+                  <div class="d-flex flex-row align-items-center gap-3 bg-transparent">
+                    <div class="img-a">
+                      <img src="./assets/img/cartoon/men-1.png" width="100%" alt="">
+                    </div>
+                    <div class="d-flex flex-grow-1 flex-column gap-2 bg-transparent">
+                      <p class="orbitron-text-500-sm bg-transparent m-0 bg-transparent">Jessica Smith</p>
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey">Content creator</p>
+                    </div>
+                    <div class="bg-transparent">
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey" >17th Aug,21</p>
+                    </div>
+                  </div>
+                  </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card-second card-body" >
+                  <p class="card-title bg-transparent orbitron-text-500-md">Card title</p>
+                  <p class="card-text bg-transparent gilroy-text-400-xs text-grey">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Mattis
+                  </p>
+                  <div class="d-flex flex-row align-items-center gap-3 bg-transparent">
+                    <div class="img-a">
+                      <img src="./assets/img/cartoon/men-1.png" width="100%" alt="">
+                    </div>
+                    <div class="d-flex flex-grow-1 flex-column gap-2 bg-transparent">
+                      <p class="orbitron-text-500-sm bg-transparent m-0 bg-transparent">Jessica Smith</p>
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey">Content creator</p>
+                    </div>
+                    <div class="bg-transparent">
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey" >17th Aug,21</p>
+                    </div>
+                  </div>
+                  </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card-second card-body" >
+                  <p class="card-title bg-transparent orbitron-text-500-md">Card title</p>
+                  <p class="card-text bg-transparent gilroy-text-400-xs text-grey">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Mattis
+                  </p>
+                  <div class="d-flex flex-row align-items-center gap-3 bg-transparent">
+                    <div class="img-a">
+                      <img src="./assets/img/cartoon/men-1.png" width="100%" alt="">
+                    </div>
+                    <div class="d-flex flex-grow-1 flex-column gap-2 bg-transparent">
+                      <p class="orbitron-text-500-sm bg-transparent m-0 bg-transparent">Jessica Smith</p>
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey">Content creator</p>
+                    </div>
+                    <div class="bg-transparent">
+                      <p class="gilroy-text-400-xxs bg-transparent m-0 bg-transparent text-grey" >17th Aug,21</p>
+                    </div>
+                  </div>
+                  </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <footer>
+      <div class="w-100 pt-5 footer bg-transparent!important">
+        <div class="container bg-transparent">
+          <div class="w-100 py-5 bg-transparent">
+            <div class="row bg-transparent">
+              <div class="col-12 col-md-6 col-lg-3 bg-transparent">
+                <div
+                  class="d-flex align-items-center justify-content-left gap-2 bg-transparent"
+                >
+                  <span class="four-pointed-star-sm bg-transparent"></span>
+                  <p class="orbitron-text-700-md bg-transparent">UNICROWD</p>
+                </div>
+                <p class="orbitron-text-400-sm bg-transparent max-w-200">
+                  The new Creative Economy.
+                </p>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 bg-transparent">
+                <p class="orbitron-text-700-sm bg-transparent">Unicrowd</p>
+                <ul class="bg-transparent ps-0">
+                  <li class="bg-transparent pb-3">
+                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="bg-transparent pb-3">
+                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                      >Collection</a
+                    >
+                  </li>
+                  <li class="bg-transparent pb-3">
+                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                      >Settings</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 bg-transparent">
+                <p class="orbitron-text-700-sm bg-transparent">Useful Link</p>
+                <ul class="bg-transparent ps-0">
+                  <li class="bg-transparent pb-3">
+                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                      >How it Works?</a
+                    >
+                  </li>
+                  <li class="bg-transparent pb-3">
+                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                      >About us</a
+                    >
+                  </li>
+                  <li class="bg-transparent pb-3">
+                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 bg-transparent">
+                <p class="orbitron-text-700-sm bg-transparent">Address</p>
+                <p
+                  class="gilroy-text-400-xs bg-transparent var(--text-grey-light)"
+                >
+                  4890 Pineview Drive, Frost,Minnesota MN-56033,USA
+                </p>
+                <div
+                  class="d-flex justify-content-left align-items-center gap-3 bg-transparent"
+                >
+                  <button class="btn-icon">
+                    <img
+                      src="./assets/img/icon/Email.svg"
+                      width="20px"
+                      class="bg-transparent"
+                      alt="email"
+                    />
+                  </button>
+                  <p class="gilroy-text-400-xs bg-transparent pt-3">
+                    <a href="#" class="bg-transparent">Unicrowd@mail.com</a>
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-left align-items-center gap-3 bg-transparent"
+                >
+                  <button class="btn-icon">
+                    <img
+                      src="./assets/img/icon/Vector.png"
+                      width="20px"
+                      class="bg-transparent"
+                      alt="email"
+                    />
+                  </button>
+                  <p class="gilroy-text-400-xs bg-transparent pt-3">
+                    <a href="#" class="bg-transparent"> 507-878-8336</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="bg-transparent" />
+      <div class="title text-center py-2">
+        <p class="gilroy-text-400-xxs text-grey bg-transparent">
+          Copyright@unicrowd Allrights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script>
+      const text = "MOUNTAIN TEXT NEW ROUND ";
+      const container = document.getElementById("circularText");
+      const radius = 65; // Adjust size
+      const angleStep = (2 * Math.PI) / text.length;
+
+      for (let i = 0; i < text.length; i++) {
+        let letter = document.createElement("span");
+        letter.innerText = text[i];
+        letter.className = "letter"; // Add class
+
+        let angle = i * angleStep;
+        let x = radius * Math.cos(angle) + radius;
+        let y = radius * Math.sin(angle) + radius;
+
+        letter.style.left = `${x}px`;
+        letter.style.top = `${y}px`;
+        letter.style.transform = `rotate(${(angle * 180) / Math.PI}deg)`;
+
+        container.appendChild(letter);
+      }
+
+      // Apply transparency fix
+      document.querySelectorAll(".letter").forEach((letter) => {
+        letter.style.backgroundColor = "transparent";
+      });
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
+</html>

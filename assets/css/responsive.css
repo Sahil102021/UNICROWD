@@ -1,0 +1,329 @@
+@media (max-width: 575px) {
+    .container{
+        max-width: 540px;
+    }
+    swiper-container{
+        padding-left: calc((100% - 576px)/2);
+    }
+    .gilroy-text-400-sm {
+        font-size: 16px;
+    }
+    .gilroy-text-400-md {
+        font-size: 16px;
+    }
+    .orbitron-text-400-sm {
+        font-size: 16px;
+    }
+    .orbitron-text-400-lg {
+        font-size: 28px;
+    }
+    .orbitron-text-500-md{
+        font-size: 16px;
+    }
+    .orbitron-text-700-sm{
+        font-size: 16px;
+    }
+    .orbitron-text-500-sm{
+        font-size: 16px;
+    }
+    .orbitron-text-500-xs{
+        font-size: 12px;
+    }
+    .orbitron-text-700-lg{
+        font-size: 18px;
+    }
+.input-i{
+    width: 100px!important;
+}
+.video{
+    width: 400px;
+    height: 375px;
+}
+.profile-img{
+    width: 60px;
+    height: 60px;
+}
+.swiper-width-primary swiper-slide {
+    width: 300px!important;
+  }
+  .card .img-z{
+    height: 120px;
+  }
+}
+ 
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px;
+    }
+    
+    .gilroy-text-400-sm {
+        font-size: 16px;
+    }
+    .gilroy-text-400-md {
+        font-size: 16px;
+    }
+    .orbitron-text-400-sm {
+        font-size: 16px;
+    }
+    .orbitron-text-400-lg {
+        font-size: 28px;
+    }
+    .orbitron-text-500-md{
+        font-size: 16px;
+    }
+    .orbitron-text-700-sm{
+        font-size: 16px;
+    }
+    .orbitron-text-500-sm{
+        font-size: 16px;
+    }
+    .orbitron-text-500-xs{
+        font-size: 12px;
+    }
+    .orbitron-text-700-lg{
+        font-size: 18px;
+    }
+    .img-i{
+        width: 50px;
+        height: 50px;
+    }
+    .input-i{
+        width: 100px!important;
+    }
+    .video{
+        width: 400px;
+        height: 375px;
+    }
+    .profile-img{
+        width: 60px;
+        height: 60px;
+    }
+    swiper-container{
+        padding-left: calc((100% - 576px)/2);
+    }
+    .swiper-width-primary swiper-slide {
+        width: 300px!important;
+      }
+      .card .img-z{
+        height: 120px;
+      }
+    
+}
+
+@media (min-width: 768px) { 
+    .container{
+        max-width: 720px;
+    }
+    swiper-container{
+        padding-left: calc((100% - 768px)/2);
+    }
+    .orbitron-text-400-lg {
+        font-size: 32px;
+    }
+    /* 500 */
+    .orbitron-text-500-lg{
+        font-size: 18px;
+    }
+    .orbitron-text-500-xl{
+        font-size: 24px;
+    }
+    .orbitron-text-500-xxl{
+        font-size: 32px;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .container{
+        max-width: 960px;
+    }
+        /* 400 */
+    .orbitron-text-400-lg {
+        font-size: 40px;
+    }
+    /* 500 */
+    .orbitron-text-500-xs{
+        font-size: 12px;
+    }
+    
+    .orbitron-text-500-lg{
+        font-size: 18px;
+    }
+    .orbitron-text-500-xl{
+        font-size: 30px;
+    }
+    .orbitron-text-500-xxl{
+        font-size: 40px;
+    }
+    
+    /* 700 */
+   
+    .verified-img{
+        width: 20px;
+        height: 20px;
+    }
+    .profile-img{
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+    }
+    .input-i{
+        width: 200px!important;
+    }
+    .video{
+        width: 400px;
+        height: 375px;
+    }
+    swiper-container{
+        padding-left: calc((100% - 992px)/2);
+    }
+    .swiper-width-primary swiper-slide {
+        width: 300px!important;
+      }
+      .card .img-z{
+        height: 120px;
+      }
+    
+ }
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px; 
+    }
+    .gilroy-text-400-sm {
+        font-size: 20px;
+    }
+    .gilroy-text-400-md {
+        font-size: 18px;
+    }
+    /* 400 */
+    .orbitron-text-400-sm {
+        font-size: 18px;
+    }
+    .orbitron-text-400-lg {
+        font-size: 60px;
+    }
+    /* 500 */
+    .orbitron-text-500-xs{
+        font-size: 14px;
+    }
+    .orbitron-text-500-sm{
+        font-size: 16px;
+    }
+    .orbitron-text-500-md{
+        font-size: 20px;
+    }
+    .orbitron-text-500-lg{
+        font-size: 25px;
+    }
+    .orbitron-text-500-xl{
+        font-size: 30px;
+    }
+    .orbitron-text-500-xxl{
+        font-size: 60px;
+    }
+    
+    /* 700 */
+    .orbitron-text-700-sm{
+        font-size: 18px;
+    }
+    .orbitron-text-700-md {
+        font-size: 20px;
+    }
+    .orbitron-text-700-lg{
+        font-size: 30px;
+    }
+    .container{
+        max-width: 1120px;
+    }
+    .img-i{
+        width: 70px;
+        height: 70px;
+    }
+    .profile-img{
+        width: 90px;
+        height: 90px;
+    }
+    .card .img-z{
+        height: 180px;
+    }
+    .swiper-width-primary swiper-slide{
+        width: 440px!important;
+    }
+    swiper-container{
+        padding-left: calc((100% - 1140px)/2);
+    }
+    .input-i{
+        width: 460px!important;
+    }
+    .video{
+        width: 400px;
+        height: 375px;
+    }
+}
+@media (min-width: 1280px) {
+    .container{
+        max-width: 1320px;
+    }
+    swiper-container{
+        padding-left: calc((100% - 1320px)/2);
+    }
+    .input-i{
+        width: 200px;
+    }
+    .video{
+        width: 400px;
+        height: 375px;
+    }
+}
+@media (min-width: 1366px) {
+    .container{
+        max-width: 1320px;
+    }
+    swiper-container{
+        padding-left: calc((100% - 1320px)/2);
+    }
+    .input-i{
+        width: 460px;
+    }
+    .video{
+        width: 600px;
+        height: 475px;
+    }
+}
+@media (min-width: 1440px) {
+    .container{
+        max-width: 1420px;
+    }
+    swiper-container{
+        padding-left: calc((100% - 1420px)/2);
+    }
+}
+@media (min-width: 1600px) {
+    .container{
+        max-width: 1520px;
+    }
+    swiper-container{
+        padding-left: calc((100% - 1520px)/2);
+    }
+    
+}
+@media (min-width: 1680px) {
+    .container{
+        max-width: 1620px;
+    }
+    swiper-container{
+    padding-left: calc((100% - 1620px)/2);
+    }
+}
+@media (min-width: 1920px) {
+    .container{
+        max-width: 1620px;
+    }
+
+    new-container-primary{
+        padding-left: calc((100% - 1620px)/2);
+    }
+}
+
+

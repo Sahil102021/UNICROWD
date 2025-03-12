@@ -1,0 +1,22 @@
+:root {
+    /* text */
+    --text-name-i : "Orbitron";
+    --text-name-ii : "Gilroy";
+   /* bg-color  */
+   --clr-light-orange : #FCB246;
+   --clr-grey-start : #6F7A9396;
+   --clr-grey-end : #54617D12;
+   --clr-body-blue : #292740;
+   --clr-grey-light-i :#6F7A9396;
+   --clr-grey-light-ii : #54617D12;
+    --clr-input-grey-start : #3D3B57A6;
+    --clr-input-grey-end : #54617D12;
+    --clr-bg-icon-grey : #3E3858;
+    --clr-light-red : #FF4455;
+
+    /* text */
+    --text-grey-light : #BABABF;
+
+    /*  */
+    --border-radius : 10px 0px 10px 0px;
+}
