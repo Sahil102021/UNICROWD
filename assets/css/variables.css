@@ -2,7 +2,10 @@
     /* text */
     --text-name-i : "Orbitron";
     --text-name-ii : "Gilroy";
+    
    /* bg-color  */
+   
+   --clr-bg-dark-blue : #2D2B47;
    --clr-light-orange : #FCB246;
    --clr-grey-start : #6F7A9396;
    --clr-grey-end : #54617D12;
@@ -13,7 +16,8 @@
     --clr-input-grey-end : #54617D12;
     --clr-bg-icon-grey : #3E3858;
     --clr-light-red : #FF4455;
-
+    --clr-light-blue : #3D3B57;
+    --clr-light-blue-transpernt : #3D3B5700;
     /* text */
     --text-grey-light : #BABABF;
 
