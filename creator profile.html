@@ -12,100 +12,118 @@
   <body>
     <!-- header  -->
     <header
-      class="d-flex align-items-center position-sticky top-0 transition-smooth z-999"
-      id="header"
-    >
-      <div class="w-100">
-        <div class="container py-3">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center justify-content-left gap-2">
-              <span class="four-pointed-star-sm"></span>
-              <div class="orbitron-text-700-md">UNICROWD</div>
-            </div>
-            <div class="d-flex justify-content-center align-items-center gap-2">
+    class="d-flex align-items-center position-sticky top-0 transition-smooth z-999"
+    id="header"
+  >
+    <div class="w-100">
+      <div class="container py-3">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center justify-content-left gap-2">
+            <span class="four-pointed-star-sm"></span>
+            <p class="orbitron-text-md fw-bold">UNICROWD</p>
+          </div>
+          <div
+            class="d-none d-md-flex justify-content-center align-items-center gap-2"
+          >
+            <div
+              class="border-shadow-secondary w-100 h-100 rounded-2 overflow-hidden"
+            >
               <input
                 type="text"
                 placeholder="Find a creator, item, or category"
-                class="input-i"
+                class="input-i gilroy-text-xs border-0 ps-3 overflow-hidden border-radius"
               />
-              <button class="p-2 btn-shap-i">
-                <img
-                  src="./assets/img/icon/Search.svg"
-                  class=""
-                  style="background-color: transparent"
-                  width="23px"
-                  alt=""
-                />
-              </button>
             </div>
-            <div class="d-flex justify-content-center align-items-center gap-4">
-              <button class="btn-shap-ii orbitron-text-500-sm">
-                collection
-              </button>
-              <button class="icon-shap">
-                <img src="./assets/img/icon/Add.svg" width="25px" alt="" />
-              </button>
-              <button class="icon-shap">
+            <button class="p-2 btn-shap-i pe-auto">
+              <img
+                src="./assets/img/icon/Search.svg"
+                class=""
+                style="background-color: transparent"
+                width="23px"
+                alt=""
+              />
+            </button>
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center gap-2 gap-lg-4"
+          >
+            <button
+              class="btn-shap-ii orbitron-text-xs fw-medium d-none d-md-block pe-auto" 
+            >
+              collection
+            </button>
+            <button
+              class="icon-shap d-none d-md-block border rounded-circle overflow-hidden pe-auto"
+            >
+              <img src="./assets/img/icon/Add.svg" width="25px" alt="" />
+            </button>
+            <button
+              class="icon-shap d-none d-md-block border rounded-circle overflow-hidden pe-auto"
+            >
+              <img
+                src="./assets/img/icon/notification.png"
+                width="25px"
+                alt=""
+              />
+            </button>
+            <div class="d-flex align-items-center">
+              <div class="men-img">
                 <img
-                  src="./assets/img/icon/notification.png"
-                  width="25px"
+                  src="./assets/img/cartoon/men-1.png"
+                  width="100%"
                   alt=""
                 />
-              </button>
-              <div class="d-flex align-items-center">
-                <div class="men-img">
-                  <img
-                    src="./assets/img/cartoon/men-1.png"
-                    width="100%"
-                    alt=""
-                  />
-                </div>
-                <div class="ps-3">
-                  <img
-                    src="./assets//img/icon/arrow-down.svg"
-                    width="20px"
-                    alt=""
-                  />
-                </div>
+              </div>
+              <div class="ps-3">
+                <img
+                  src="./assets//img/icon/arrow-down.svg"
+                  width="20px"
+                  alt=""
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
+
 
     <!-- background img -->
     <div class="w-100 second-bg-img">
-      <img src="./assets/img/card img/bg-1.jpg" width="100%" alt="" />
+      <img src="./assets/img/card img/bg-1.jpg" width="100%"  height="100%" class="object-fit-cover" />
     </div>
 
-    <div class="w-100">
+    <div class="w-100 user-all-detail">
       <div class="container">
-        <div class="w-100 d-flex flex-row py-5 gap-5 position-relative">
+        <div
+          class="w-100 d-flex flex-column flex-lg-row py-5 gap-5 position-relative"
+        >
           <!-- profile panle -->
           <div class="w-25 rounded-4 main-25-profile-box bg-transparent">
-            <div class="profile-user-detail">
-              <div class="profile-box">
+            <div class="profile-user-detail position-relative rounded-4">
+              <div class="profile-box w-100 border-shadow-secondary rounded-4 d-flex justify-content-center align-items-center">
                 <div
                   class="custom-profile-padding rounded-4 bg-transparent card-body"
                 >
                   <div
                     class="bg-transparent rounded-4 d-flex justify-content-center align-items-center flex-column gap-3"
                   >
-                    <div class="profile-user-img bg-transparent">
+                    <div class="profile-user-img border overflow-hidden position-xl-absolute bottom-50 bg-transparent">
                       <img
+                      class="object-fit-contain"
                         src="./assets/img/cartoon/men-1.png"
                         width="100%"
                         alt="usre img"
                       />
                     </div>
-                    <div class="custom-blnak-space"></div>
+                    <div class="custom-blnak-space d-none d-xl-block"></div>
                     <div
                       class="user-name bg-transparent d-flex flex-row align-items-center gap-2"
                     >
-                      <p class="orbitron-text-600-lg bg-transparent">
+                      <h3 class="orbitron-text-lg fw-semibold bg-transparent">
                         Jenny Wilson
-                      </p>
+                      </h3>
                       <img
                         src="./assets/img/icon/verified.png"
                         width="22px"
@@ -113,19 +131,19 @@
                         alt=""
                       />
                     </div>
-                    <div
-                      class="total-subscribers orbitron-text-500-sm text-grey bg-transparent"
+                    <p
+                      class="total-subscribers orbitron-text-xs  fw-medium fw-medium text-grey "
                     >
                       1M Subscribers
-                    </div>
-                    <hr class="hr-i" />
+                  </p>
+                    <hr class="hr-i border-0" width="100%"  />
                     <p
-                      class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
+                      class="orbitron-text-xxs  text-orange mb-0 pb-2"
                     >
                       #leagueoflegends
                     </p>
                     <p
-                      class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg text-center pt-4"
+                      class="gilroy-text-xxs fw-normal text-grey mb-0  lh-lg text-center pt-4 card-text"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -133,43 +151,43 @@
                     <div class="d-flex flex-row gap-2 gap-xl-4 bg-transparent">
                       <div class="d-flex flex-column gap-1 bg-transparent">
                         <div
-                          class="min-box orbitron-text-500-md bg-transparent"
+                          class="min-box text-center p-2 orbitron-text-md fw-medium bg-transparent"
                         >
                           200
-                        </div>
+                      </div>
                         <p
-                          class="gilroy-text-400-xxs text-uppercase text-grey text-center bg-transparent pt-2"
+                          class="gilroy-text-3xs fw-normal text-uppercase text-grey text-center bg-transparent pt-2"
                         >
                           CREATED
                         </p>
                       </div>
                       <div class="d-flex flex-column gap-1 bg-transparent">
                         <div
-                          class="min-box orbitron-text-500-md bg-transparent"
+                          class="min-box text-center p-2 orbitron-text-md fw-medium bg-transparent"
                         >
                           120
                         </div>
                         <p
-                          class="gilroy-text-400-xxs text-uppercase text-grey text-center bg-transparent pt-2"
+                          class="gilroy-text-3xs fw-normal text-uppercase text-grey text-center bg-transparent pt-2"
                         >
                           Sold
                         </p>
                       </div>
                       <div class="d-flex flex-column gap-1 bg-transparent">
                         <div
-                          class="min-box orbitron-text-500-md bg-transparent"
+                          class="min-box text-center p-2 orbitron-text-md fw-medium bg-transparent"
                         >
                           80
                         </div>
                         <p
-                          class="gilroy-text-400-xxs text-uppercase text-grey text-center bg-transparent pt-2"
+                          class="gilroy-text-3xs fw-normal text-uppercase text-grey text-center bg-transparent pt-2"
                         >
                           COLLECTED
                         </p>
                       </div>
                     </div>
                     <div class="d-flex flex-row gap-3 bg-transparent pt-4">
-                      <button class="btn-icon bg-transparent p-2">
+                      <button class="btn-icon border rounded-circle d-flex justify-content-center align-items-center bg-transparent p-2 pe-auto">
                         <img
                           src="./assets/img/icon/facbook.png"
                           width="15px"
@@ -177,7 +195,7 @@
                           alt="email"
                         />
                       </button>
-                      <button class="btn-icon bg-transparent">
+                      <button class="btn-icon border rounded-circle d-flex justify-content-center align-items-center bg-transparent pe-auto">
                         <img
                           src="./assets/img/icon/instagra.png"
                           width="25px"
@@ -185,7 +203,7 @@
                           alt="email"
                         />
                       </button>
-                      <button class="btn-icon bg-transparent">
+                      <button class="btn-icon border rounded-circle d-flex justify-content-center align-items-center bg-transparent pe-auto">
                         <img
                           src="./assets/img/icon/twitter.png"
                           width="25px"
@@ -198,12 +216,12 @@
                 </div>
               </div>
             </div>
-            <div class="subscription mt-4">
+            <div class="subscription w-100 border-shadow-secondary d-flex justify-content-center align-items-center rounded-4 mt-4">
               <div
                 class="p-5 bg-transparent card-body d-flex justify-content-center align-items-center flex-column gap-3"
               >
                 <p
-                  class="text-center text-grey gilroy-text-400-xs text-uppercase bg-transparent"
+                  class="text-center text-grey gilroy-text-xxs fw-normal text-uppercase bg-transparent"
                 >
                   Benifits of subscription
                 </p>
@@ -212,33 +230,33 @@
                   class="bg-transparent lh-lg"
                 >
                   <li
-                    class="gilroy-text-400-sm bg-transparent"
+                    class="gilroy-text-md fw-normal bg-transparent"
                     style="list-style-type: disc"
                   >
                     Lorem ipsum dolor sit amet,
                   </li>
                   <li
-                    class="gilroy-text-400-sm bg-transparent"
+                    class="gilroy-text-md fw-normal bg-transparent"
                     style="list-style-type: disc"
                   >
                     Consectetur adipiscing elit
                   </li>
                   <li
-                    class="gilroy-text-400-sm bg-transparent"
+                    class="gilroy-text-md fw-normal bg-transparent"
                     style="list-style-type: disc"
                   >
                     sed do eiusmod
                   </li>
                   <li
-                    class="gilroy-text-400-sm bg-transparent"
+                    class="gilroy-text-md fw-normal bg-transparent"
                     style="list-style-type: disc"
                   >
                     tempor incididunt ut labore
                   </li>
                 </ul>
-                <button class="btn-shap-primary orbitron-text-700-md">
+                <button class="btn-shap-primary orbitron-text-sm  fw-bold pe-auto">
                   Subcribe $65.99<span
-                    class="bg-transparent orbitron-text-400-xs"
+                    class="bg-transparent orbitron-text-xs fw-normal"
                     >/per mo</span
                   >
                 </button>
@@ -252,25 +270,25 @@
               <div class="tab-panle">
                 <nav class="nav pt-3">
                   <a
-                    class="nav-link active orbitron-text-400-sm text-grey"
+                    class="nav-link active orbitron-text-md  fw-normalfw-normal text-grey"
                     aria-current="page"
                     href="#"
                     >Active</a
                   >
-                  <a class="nav-link orbitron-text-400-sm text-grey" href="#"
+                  <a class="nav-link orbitron-text-md  fw-normal text-grey" href="#"
                     >Created</a
                   >
-                  <a class="nav-link orbitron-text-400-sm text-grey" href="#"
+                  <a class="nav-link orbitron-text-md  fw-normal text-grey" href="#"
                     >Collected</a
                   >
-                  <a class="nav-link orbitron-text-400-sm text-grey" href="#"
+                  <a class="nav-link orbitron-text-md  fw-normal text-grey" href="#"
                     >Blog</a
                   >
                   <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                 </nav>
               </div>
               <div class="d-flex flex-row gap-4">
-                <button class="btn-shap-transpernt-icon">
+                <button class="btn-shap-transpernt-icon pe-auto">
                   <img
                     src="./assets/img/icon/Sort.svg"
                     class="bg-transparent"
@@ -278,8 +296,8 @@
                     alt="sort value"
                   />
                 </button>
-                <button class="btn-shap-transpernt">
-                  <a href="#" class="bg-transparent orbitron-text-400-xs"
+                <button class="btn-shap-transpernt pe-auto">
+                  <a href="#" class="bg-transparent orbitron-text-xs fw-normal"
                     >Sort by</a
                   >
                   <img
@@ -293,61 +311,67 @@
             </div>
             <!-- tabe list -->
             <div
-              class="tabe-list-character max-h-1680 overflow-y-scroll d-flex flex-column gap-5"
+              class="tabe-list-character max-h-1680 overflow-y-scroll d-flex flex-column gap-4"
             >
               <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
+                <div class="border-shadow-secondary rounded-4 overflow-hidden hover:border-info">
+                  <div
+                    class="card-body p-4 d-flex flex-column flex-md-row gap-3"
+                  >
+                    <div class="w-25 game-character-card-img overflow-hidden rounded-3">
                       <img
                         src="./assets/img/card img/t1.png"
                         width="100%"
+                        height="100%"
+                        class="object-fit-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
+                      class="w-75 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
                     >
                       <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
+                        class="d-flex flex-column flex-md-row justify-content-between bg-transparent"
                       >
                         <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
+                          <h3
+                            class="orbitron-text-xl fw-bold mb-0 bg-transparent pb-2"
                           >
                             Classic Clip
-                          </p>
+                        </h3>
                           <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
+                            class="orbitron-text-xs  fw-medium text-orange mb-0  pb-2"
                           >
                             #leagueoflegends, #leagueoflegends
                           </p>
                         </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
+                        <div
+                          class="prise-box border-shadow-secondary d-flex flex-md-row justify-content-center align-items-center  bg-transparent"
+                        >
                           <div class="bg-transparent">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Price
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class="orbitron-text-xs fw-medium">
                               0.65 ETH
                             </p>
                           </div>
                           <div class="bg-transparent ps-4">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Ends in
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class=" orbitron-text-xs fw-medium" >
                               24 hrs
                             </p>
                           </div>
                         </div>
                       </div>
                       <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
+                        class="gilroy-text-xxs fw-normal text-grey mb-0 lh-lg card-text"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -360,58 +384,64 @@
                 </div>
               </div>
               <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
+                <div class="border-shadow-secondary rounded-4 overflow-hidden hover:border-info">
+                  <div
+                    class="card-body p-4 d-flex flex-column flex-md-row gap-3"
+                  >
+                    <div class="w-25 game-character-card-img overflow-hidden rounded-3">
                       <img
                         src="./assets/img/card img/t1.png"
                         width="100%"
+                        height="100%"
+                        class="object-fit-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
+                      class="w-75 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
                     >
                       <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
+                        class="d-flex flex-column flex-md-row justify-content-between bg-transparent"
                       >
                         <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
+                          <h3
+                            class="orbitron-text-xl fw-bold mb-0 bg-transparent pb-2"
                           >
                             Classic Clip
-                          </p>
+                        </h3>
                           <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
+                            class="orbitron-text-xs  fw-medium text-orange mb-0  pb-2"
                           >
                             #leagueoflegends, #leagueoflegends
                           </p>
                         </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
+                        <div
+                          class="prise-box border-shadow-secondary d-flex flex-md-row justify-content-center align-items-center  bg-transparent"
+                        >
                           <div class="bg-transparent">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Price
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class="orbitron-text-xs fw-medium">
                               0.65 ETH
                             </p>
                           </div>
                           <div class="bg-transparent ps-4">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Ends in
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class=" orbitron-text-xs fw-medium" >
                               24 hrs
                             </p>
                           </div>
                         </div>
                       </div>
                       <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
+                        class="gilroy-text-xxs fw-normal text-grey mb-0 lh-lg card-text"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -424,58 +454,64 @@
                 </div>
               </div>
               <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
+                <div class="border-shadow-secondary rounded-4 overflow-hidden hover:border-info">
+                  <div
+                    class="card-body p-4 d-flex flex-column flex-md-row gap-3"
+                  >
+                    <div class="w-25 game-character-card-img overflow-hidden rounded-3">
                       <img
                         src="./assets/img/card img/t1.png"
                         width="100%"
+                        height="100%"
+                        class="object-fit-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
+                      class="w-75 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
                     >
                       <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
+                        class="d-flex flex-column flex-md-row justify-content-between bg-transparent"
                       >
                         <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
+                          <h3
+                            class="orbitron-text-xl fw-bold mb-0 bg-transparent pb-2"
                           >
                             Classic Clip
-                          </p>
+                        </h3>
                           <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
+                            class="orbitron-text-xs  fw-medium text-orange mb-0  pb-2"
                           >
                             #leagueoflegends, #leagueoflegends
                           </p>
                         </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
+                        <div
+                          class="prise-box border-shadow-secondary d-flex flex-md-row justify-content-center align-items-center  bg-transparent"
+                        >
                           <div class="bg-transparent">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Price
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class="orbitron-text-xs fw-medium">
                               0.65 ETH
                             </p>
                           </div>
                           <div class="bg-transparent ps-4">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Ends in
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class=" orbitron-text-xs fw-medium" >
                               24 hrs
                             </p>
                           </div>
                         </div>
                       </div>
                       <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
+                        class="gilroy-text-xxs fw-normal text-grey mb-0 lh-lg card-text"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -488,58 +524,64 @@
                 </div>
               </div>
               <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
+                <div class="border-shadow-secondary rounded-4 overflow-hidden hover:border-info">
+                  <div
+                    class="card-body p-4 d-flex flex-column flex-md-row gap-3"
+                  >
+                    <div class="w-25 game-character-card-img overflow-hidden rounded-3">
                       <img
                         src="./assets/img/card img/t1.png"
                         width="100%"
+                        height="100%"
+                        class="object-fit-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
+                      class="w-75 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
                     >
                       <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
+                        class="d-flex flex-column flex-md-row justify-content-between bg-transparent"
                       >
                         <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
+                          <h3
+                            class="orbitron-text-xl fw-bold mb-0 bg-transparent pb-2"
                           >
                             Classic Clip
-                          </p>
+                        </h3>
                           <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
+                            class="orbitron-text-xs  fw-medium text-orange mb-0  pb-2"
                           >
                             #leagueoflegends, #leagueoflegends
                           </p>
                         </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
+                        <div
+                          class="prise-box border-shadow-secondary d-flex flex-md-row justify-content-center align-items-center  bg-transparent"
+                        >
                           <div class="bg-transparent">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Price
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class="orbitron-text-xs fw-medium">
                               0.65 ETH
                             </p>
                           </div>
                           <div class="bg-transparent ps-4">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Ends in
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class=" orbitron-text-xs fw-medium" >
                               24 hrs
                             </p>
                           </div>
                         </div>
                       </div>
                       <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
+                        class="gilroy-text-xxs fw-normal text-grey mb-0 lh-lg card-text"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -552,58 +594,64 @@
                 </div>
               </div>
               <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
+                <div class="border-shadow-secondary rounded-4 overflow-hidden hover:border-info">
+                  <div
+                    class="card-body p-4 d-flex flex-column flex-md-row gap-3"
+                  >
+                    <div class="w-25 game-character-card-img overflow-hidden rounded-3">
                       <img
                         src="./assets/img/card img/t1.png"
                         width="100%"
+                        height="100%"
+                        class="object-fit-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
+                      class="w-75 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
                     >
                       <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
+                        class="d-flex flex-column flex-md-row justify-content-between bg-transparent"
                       >
                         <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
+                          <h3
+                            class="orbitron-text-xl fw-bold mb-0 bg-transparent pb-2"
                           >
                             Classic Clip
-                          </p>
+                        </h3>
                           <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
+                            class="orbitron-text-xs  fw-medium text-orange mb-0  pb-2"
                           >
                             #leagueoflegends, #leagueoflegends
                           </p>
                         </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
+                        <div
+                          class="prise-box border-shadow-secondary d-flex flex-md-row justify-content-center align-items-center  bg-transparent"
+                        >
                           <div class="bg-transparent">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Price
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class="orbitron-text-xs fw-medium">
                               0.65 ETH
                             </p>
                           </div>
                           <div class="bg-transparent ps-4">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Ends in
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class=" orbitron-text-xs fw-medium" >
                               24 hrs
                             </p>
                           </div>
                         </div>
                       </div>
                       <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
+                        class="gilroy-text-xxs fw-normal text-grey mb-0 lh-lg card-text"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -616,58 +664,64 @@
                 </div>
               </div>
               <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
+                <div class="border-shadow-secondary rounded-4 overflow-hidden hover:border-info">
+                  <div
+                    class="card-body p-4 d-flex flex-column flex-md-row gap-3"
+                  >
+                    <div class="w-25 game-character-card-img overflow-hidden rounded-3">
                       <img
                         src="./assets/img/card img/t1.png"
                         width="100%"
+                        height="100%"
+                        class="object-fit-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
+                      class="w-75 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
                     >
                       <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
+                        class="d-flex flex-column flex-md-row justify-content-between bg-transparent"
                       >
                         <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
+                          <h3
+                            class="orbitron-text-xl fw-bold mb-0 bg-transparent pb-2"
                           >
                             Classic Clip
-                          </p>
+                        </h3>
                           <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
+                            class="orbitron-text-xs  fw-medium text-orange mb-0  pb-2"
                           >
                             #leagueoflegends, #leagueoflegends
                           </p>
                         </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
+                        <div
+                          class="prise-box border-shadow-secondary d-flex flex-md-row justify-content-center align-items-center  bg-transparent"
+                        >
                           <div class="bg-transparent">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Price
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class="orbitron-text-xs fw-medium">
                               0.65 ETH
                             </p>
                           </div>
                           <div class="bg-transparent ps-4">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Ends in
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class=" orbitron-text-xs fw-medium" >
                               24 hrs
                             </p>
                           </div>
                         </div>
                       </div>
                       <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
+                        class="gilroy-text-xxs fw-normal text-grey mb-0 lh-lg card-text"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -680,58 +734,64 @@
                 </div>
               </div>
               <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
+                <div class="border-shadow-secondary rounded-4 overflow-hidden hover:border-info">
+                  <div
+                    class="card-body p-4 d-flex flex-column flex-md-row gap-3"
+                  >
+                    <div class="w-25 game-character-card-img overflow-hidden rounded-3">
                       <img
                         src="./assets/img/card img/t1.png"
                         width="100%"
+                        height="100%"
+                        class="object-fit-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
+                      class="w-75 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
                     >
                       <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
+                        class="d-flex flex-column flex-md-row justify-content-between bg-transparent"
                       >
                         <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
+                          <h3
+                            class="orbitron-text-xl fw-bold mb-0 bg-transparent pb-2"
                           >
                             Classic Clip
-                          </p>
+                        </h3>
                           <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
+                            class="orbitron-text-xs  fw-medium text-orange mb-0  pb-2"
                           >
                             #leagueoflegends, #leagueoflegends
                           </p>
                         </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
+                        <div
+                          class="prise-box border-shadow-secondary d-flex flex-md-row justify-content-center align-items-center  bg-transparent"
+                        >
                           <div class="bg-transparent">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Price
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class="orbitron-text-xs fw-medium">
                               0.65 ETH
                             </p>
                           </div>
                           <div class="bg-transparent ps-4">
                             <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
+                              class=" gilroy-text-3xs fw-normal text-grey"
                             >
                               Ends in
                             </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
+                            <p class=" orbitron-text-xs fw-medium" >
                               24 hrs
                             </p>
                           </div>
                         </div>
                       </div>
                       <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
+                        class="gilroy-text-xxs fw-normal text-grey mb-0 lh-lg card-text"
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -743,336 +803,129 @@
                   </div>
                 </div>
               </div>
-              <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
-                      <img
-                        src="./assets/img/card img/t1.png"
-                        width="100%"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
-                    >
-                      <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
-                      >
-                        <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
-                          >
-                            Classic Clip
-                          </p>
-                          <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
-                          >
-                            #leagueoflegends, #leagueoflegends
-                          </p>
-                        </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
-                          <div class="bg-transparent">
-                            <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
-                            >
-                              Price
-                            </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
-                              0.65 ETH
-                            </p>
-                          </div>
-                          <div class="bg-transparent ps-4">
-                            <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
-                            >
-                              Ends in
-                            </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
-                              24 hrs
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
-                      <img
-                        src="./assets/img/card img/t1.png"
-                        width="100%"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
-                    >
-                      <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
-                      >
-                        <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
-                          >
-                            Classic Clip
-                          </p>
-                          <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
-                          >
-                            #leagueoflegends, #leagueoflegends
-                          </p>
-                        </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
-                          <div class="bg-transparent">
-                            <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
-                            >
-                              Price
-                            </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
-                              0.65 ETH
-                            </p>
-                          </div>
-                          <div class="bg-transparent ps-4">
-                            <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
-                            >
-                              Ends in
-                            </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
-                              24 hrs
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
-                      <img
-                        src="./assets/img/card img/t1.png"
-                        width="100%"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
-                    >
-                      <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
-                      >
-                        <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
-                          >
-                            Classic Clip
-                          </p>
-                          <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
-                          >
-                            #leagueoflegends, #leagueoflegends
-                          </p>
-                        </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
-                          <div class="bg-transparent">
-                            <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
-                            >
-                              Price
-                            </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
-                              0.65 ETH
-                            </p>
-                          </div>
-                          <div class="bg-transparent ps-4">
-                            <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
-                            >
-                              Ends in
-                            </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
-                              24 hrs
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-100 d-flex flex-column gap-2">
-                <div class="game-character-card rounded-4 overflow-hidden">
-                  <div class="card-body p-3 d-flex flex-row gap-3">
-                    <div class="w-30 game-character-card-img">
-                      <img
-                        src="./assets/img/card img/t1.png"
-                        width="100%"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="w-70 game-character-card-content d-flex flex-column gap-2 justify-content-center bg-transparent"
-                    >
-                      <div
-                        class="d-flex flex-row justify-content-between bg-transparent"
-                      >
-                        <div class="d-flex flex-column bg-transparent">
-                          <p
-                            class="orbitron-text-700-xl mb-0 bg-transparent pb-2"
-                          >
-                            Classic Clip
-                          </p>
-                          <p
-                            class="orbitron-text-500-sm text-orange mb-0 bg-transparent pb-2"
-                          >
-                            #leagueoflegends, #leagueoflegends
-                          </p>
-                        </div>
-                        <div class="prise-box d-flex flex-row bg-transparent">
-                          <div class="bg-transparent">
-                            <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
-                            >
-                              Price
-                            </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
-                              0.65 ETH
-                            </p>
-                          </div>
-                          <div class="bg-transparent ps-4">
-                            <p
-                              class="bg-transparent gilroy-text-400-xxs text-grey"
-                            >
-                              Ends in
-                            </p>
-                            <p class="bg-transparent orbitron-text-500-xs">
-                              24 hrs
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="gilroy-text-400-xs text-grey mb-0 bg-transparent lh-lg"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             
             </div>
           </div>
-          <div class="shadow-dot-xxl"></div>
+          <div class="shadow-dot-xxl position-absolute"></div>
         </div>
       </div>
     </div>
 
     <footer>
-      <div class="w-100 pt-5 footer bg-transparent!important">
+      <div class="w-100 footer bg-transparent!important">
         <div class="container bg-transparent">
-          <div class="w-100 py-5 bg-transparent">
+          <div class="w-100 bg-transparent">
             <div class="row bg-transparent">
-              <div class="col-12 col-md-6 col-lg-3 bg-transparent">
+              <div class="col-12 col-md-6 col-lg-3 bg-transparent py-3 py-md-4 py-lg-5">
                 <div
                   class="d-flex align-items-center justify-content-left gap-2 bg-transparent pb-3"
                 >
                   <span class="four-pointed-star-sm bg-transparent"></span>
-                  <p class="orbitron-text-700-md bg-transparent ">UNICROWD</p>
+                  <p class="orbitron-text-md fw-bold fw-bold pb-3 pb-lg-4">UNICROWD</p>
                 </div>
-                <p class="orbitron-text-400-sm bg-transparent max-w-200">
+                <p class="orbitron-text-md fw-normal max-w-200">
                   The new Creative Economy.
                 </p>
+                <div class="d-flex flex-row align-items-center gap-3 bg-transparent pt-3">
+                  <button class="btn-icon border rounded-circle d-flex justify-content-center align-items-center pe-auto">
+                    <img
+                      src="./assets/img/icon/facbook.png"
+                      width="12.5px"
+                      class="bg-transparent"
+                      alt="email"
+                    />
+                  </button>
+                  <button class="btn-icon border rounded-circle d-flex justify-content-center align-items-center pe-auto">
+                    <img
+                      src="./assets/img/icon/instagra.png"
+                      width="20px"
+                      class="bg-transparent"
+                      alt="email"
+                    />
+                  </button>
+                  <button class="btn-icon border rounded-circle d-flex justify-content-center align-items-center pe-auto">
+                    <img
+                      src="./assets/img/icon/twitter.png"
+                      width="20px"
+                      class="bg-transparent"
+                      alt="email"
+                    />
+                  </button>
+                  <button class="btn-icon border rounded-circle d-flex justify-content-center align-items-center pe-auto">
+                    <img
+                      src="./assets/img/icon/Youtube.svg"
+                      width="20px"
+                      class="bg-transparent"
+                      alt="email"
+                    />
+                  </button>
+                </div>
               </div>
-              <div class="col-12 col-md-6 col-lg-3 bg-transparent">
-                <p class="orbitron-text-700-sm bg-transparent pb-3">Unicrowd</p>
+              <div class="col-12 col-md-6 col-lg-3 bg-transparent py-3 py-md-4 py-lg-5">
+                <p class="orbitron-text-xs fw-bold pb-3 pb-lg-4">Unicrowd</p>
                 <ul class="bg-transparent ps-0">
-                  <li class="bg-transparent pb-3">
-                    <a href="#" class="orbitron-text-400-xs bg-transparent"
-                      >Home</a
+                  <li class="bg-transparent pb-3 pb-lg-4">
+                    <a
+                      href="#"
+                      class="orbitron-text-xs fw-normal bg-transparent"
+                      >Home </a
                     >
                   </li>
-                  <li class="bg-transparent pb-3">
-                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                  <li class="bg-transparent pb-3 pb-lg-4">
+                    <a
+                      href="#"
+                      class="orbitron-text-xs fw-normal bg-transparent"
                       >Collection</a
                     >
                   </li>
-                  <li class="bg-transparent pb-3">
-                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                  <li class="bg-transparent pb-3 pb-lg-4">
+                    <a
+                      href="#"
+                      class="orbitron-text-xs fw-normal bg-transparent"
                       >Settings</a
                     >
                   </li>
                 </ul>
               </div>
-              <div class="col-12 col-md-6 col-lg-3 bg-transparent">
-                <p class="orbitron-text-700-sm bg-transparent pb-3">
+              <div class="col-12 col-md-6 col-lg-3 bg-transparent py-3 py-md-4 py-lg-5">
+                <p class="orbitron-text-xs fw-bold bg-transparent pb-3 pb-lg-4">
                   Useful Link
                 </p>
                 <ul class="bg-transparent ps-0">
-                  <li class="bg-transparent pb-3">
-                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                  <li class="bg-transparent pb-3 pb-lg-4">
+                    <a
+                      href="#"
+                      class="orbitron-text-xs fw-normal bg-transparent"
                       >How it Works?</a
                     >
                   </li>
-                  <li class="bg-transparent pb-3">
-                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                  <li class="bg-transparent pb-3 pb-lg-4">
+                    <a
+                      href="#"
+                      class="orbitron-text-xs fw-normal bg-transparent"
                       >About us</a
                     >
                   </li>
-                  <li class="bg-transparent pb-3">
-                    <a href="#" class="orbitron-text-400-xs bg-transparent"
+                  <li class="bg-transparent pb-3 pb-lg-4">
+                    <a
+                      href="#"
+                      class="orbitron-text-xs fw-normal bg-transparent"
                       >Contact Us</a
                     >
                   </li>
                 </ul>
               </div>
-              <div class="col-12 col-md-6 col-lg-3 bg-transparent ">
-                <p class="orbitron-text-700-sm bg-transparent pb-3">Address</p>
-                <p class="gilroy-text-400-xs bg-transparent pb-3 text-grey">
+              <div class="col-12 col-md-6 col-lg-3 bg-transparent py-3 py-md-4 py-lg-5">
+                <p class="orbitron-text-xs fw-bold bg-transparent pb-3 pb-lg-4">
+                  Address
+                </p>
+                <p class="gilroy-text-xs bg-transparent pb-3  text-grey">
                   4890 Pineview Drive, Frost,Minnesota MN-56033,USA
                 </p>
                 <div
                   class="d-flex justify-content-left align-items-center gap-3 bg-transparent pb-2"
                 >
-                  <button class="btn-icon">
+                  <button class="btn-icon border rounded-circle d-flex justify-content-center align-items-center pe-auto">
                     <img
                       src="./assets/img/icon/Email.svg"
                       width="20px"
@@ -1080,14 +933,14 @@
                       alt="email"
                     />
                   </button>
-                  <p class="gilroy-text-400-xs bg-transparent pt-1">
+                  <p class="gilroy-text-xs bg-transparent pt-1">
                     <a href="#" class="bg-transparent">Unicrowd@mail.com</a>
                   </p>
                 </div>
                 <div
                   class="d-flex justify-content-left align-items-center gap-3 bg-transparent pb-2"
                 >
-                  <button class="btn-icon">
+                  <button class="btn-icon border rounded-circle d-flex justify-content-center align-items-center pe-auto">
                     <img
                       src="./assets/img/icon/Vector.png"
                       width="20px"
@@ -1095,7 +948,7 @@
                       alt="email"
                     />
                   </button>
-                  <p class="gilroy-text-400-xs bg-transparent pt-1">
+                  <p class="gilroy-text-xs bg-transparent pt-1">
                     <a href="#" class="bg-transparent"> 507-878-8336</a>
                   </p>
                 </div>
@@ -1104,9 +957,9 @@
           </div>
         </div>
       </div>
-      <hr class="bg-transparent" />
-      <div class="title text-center py-2">
-        <p class="gilroy-text-400-xxs text-grey bg-transparent">
+      <hr class="bg-transparent m-0" />
+      <div class="title text-center py-2 py-md-5">
+        <p class="gilroy-text-xxs text-grey bg-transparent">
           Copyright@unicrowd Allrights Reserved.
         </p>
       </div>
